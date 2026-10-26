@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "baseUrl": "./src",
+      "paths": {
+        "@components/*": ["components/*"],  // Alias untuk komponen di src/components
+        "*": ["node_modules/*", "types/*"]
+      }
+    },
+    "include": ["src/**/*"]
+  }
+   
